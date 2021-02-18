@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Registration Form</title>
+	<!-- <script defer src="validations.js"></script> -->
+	<script defer src="regValid.js"></script>
+	<link rel="stylesheet" href="register.css">
+</head>
+
+
+<body>
+
+	<h1>Welcom to the registration form</h1>
+	<h3> <a href="index.html">Go back</a></h3><br>
+	
+		<form name="registrationForm" method="POST" action="register.php" onsubmit="return registrationValidation()">
+			<div style="text-align:center">
+			<table class="center">
+				<tr>
+					<td>Name:</td>
+					<td><input id="name" type="text" name="name" class="center" required><br></td>
+				</tr>
+
+				<tr>
+					<td>Email:</td>
+					<td><input id="email" type="email" name="email" class="center" required><br></td>
+				</tr>
+
+				<tr>
+					<td>Password:</td>
+					<td><input id="password" type="password" name="password" class="center" required minlength="5"><br></td>
+				</tr>
+
+				<tr>
+					<td>Confirm password:</td>
+					<td><input type="password" name="confirmPassword" class="center" required minlength="5"><br></td>
+				</tr>
+
+				<tr>
+					<td></td>
+					<td><input type="submit" value="Submit" class="center"></td>
+				</tr>
+
+				<tr>
+					<td></td>
+					<td><input type="reset" value="Reset!" class="center"></td>
+				</tr>
+
+
+			</table>
+		</div>
+		</form>
+	
+
+	<!-- <script src="validations.js"></script> -->
+
+
+</body>
+
+</html>

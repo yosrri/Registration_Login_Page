@@ -1,0 +1,62 @@
+body {
+    background: rgb(131,58,180);
+background: -moz-linear-gradient(90deg, rgba(131,58,180,1) 19%, rgba(29,147,253,1) 50%, rgba(62,235,221,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(131,58,180,1) 19%, rgba(29,147,253,1) 50%, rgba(62,235,221,1) 100%);
+background: linear-gradient(90deg, rgba(131,58,180,1) 19%, rgba(29,147,253,1) 50%, rgba(62,235,221,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4",endColorstr="#3eebdd",GradientType=1);
+  }
+
+
+a{
+    color: #54accf;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover {
+    text-decoration: underline;
+  }
+
+
+  h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+  }
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+input {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #8a3b87;
+    border-radius: 4px;
+  }
+  
+  input {
+    transition: width 0.3s ease-in-out;
+  }
+  
+  input:focus {
+    width: 100%;
+  }
+  input[type=submit] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #8a3b87;
+    border-radius: 4px;
+  }
+  input[type=reset] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #8a3b87;
+    border-radius: 4px;
+
+  }
+
+  

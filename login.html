@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" href="register.css">
+	<script defer src="loginValid.js"></script>
+
+</head>
+<body>
+	<a href="index.html"> Go Back </a> 
+	<h1> Login Page </h1>
+	<form id="loginForm" method="POST" action="login.php" onsubmit="return loginValidation()">
+		<table class="center">
+			<tr>
+				<td>Email:</td>
+				<td><input id="email" type="email" name="loginEmail" class="center" required><br></td>
+			</tr>
+	
+			<tr>
+				<td>Password:</td>
+				<td><input id="password" type="password" name="loginPassword" class="center" required minlength="5" ><br></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="Login" class="center"><br></td>
+			</tr>
+	
+		</table>
+		
+		
+		
+	</form>
+
+	
+</body>
+</html>

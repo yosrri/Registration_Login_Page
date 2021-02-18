@@ -1,0 +1,23 @@
+CREATE TABLE `project1_form`.
+`user` 
+( `user_id` INT NOT NULL AUTO_INCREMENT ,
+ `email` VARCHAR(255) NOT NULL ,
+ `name` VARCHAR(255) NOT NULL ,
+ `password` VARCHAR(255) NOT NULL ,
+ `registration_date` DATETIME NOT NULL ,
+ PRIMARY KEY (`user_id`) ,
+UNIQUE KEY (`email`)) 
+ENGINE = InnoDB;
+
+
+CREATE TABLE `project1_form`.
+`department` 
+( `department_id` INT(255) NOT NULL AUTO_INCREMENT ,
+ `name` VARCHAR(255) NOT NULL , 
+`description` VARCHAR(255) NOT NULL , 
+PRIMARY KEY (`department_id`)) 
+ENGINE = InnoDB;
+
+
+INSERT INTO `department` (`department_id`, `name`, `description`) VALUES ('1', 'Handaset Eskndria', 'Qesm el dehk wel dehkawya'), ('2', 'Computer Science', 'Harvard ')
+
